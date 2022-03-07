@@ -5,13 +5,13 @@ import org.junit.Test;
 
 public class powertest {
     @Test
-    public void one_raised_to_one_is_onew() {
-        assert powerfinder.OF(1,1) == 1;
+    public void one_raised_to_one_is_one() {
+        assert powerfinder.OF(1,1) == 2;
     }
 
     @Test
     public void twoRaised_to_one_is_2() {
-        assert powerfinder.OF(2,1) == 2;
+        assert powerfinder.OF(2,1) == 1;
     }
 
     @Test
